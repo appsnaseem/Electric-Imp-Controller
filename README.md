@@ -5,9 +5,13 @@ Electric-Imp-Controller
 This App help users to control the Electric Imp pins by the android app "Electric Imp Controller".
 
 In order to use this App:
+
 	1) Go to plan.electricimp.com
+	
 	2) Login and make sure that your electric imp appear
+	
 	3) Create new project(model) with the below code(Agent and Device)
+	
 	4) Upload the progect(model) into your Imp
 
 
