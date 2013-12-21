@@ -15,12 +15,12 @@ Configure your android App(Agent id/User id)
 
 - Agent id
 
-Your "Electric Imp agent id"  is the XXX from agent url:
-	https://agent.electricimp.com/XXX 
+	Your "Electric Imp agent id"  is the XXX from agent url:
+		https://agent.electricimp.com/XXX 
 
 - User id
 
-"User id" is just value to inspect and identify user actions in the loger.
-The default user id is "123456".
+	"User id" is just value to inspect and identify user actions in the loger.
+	The default "user id" is "123456".
 
  
