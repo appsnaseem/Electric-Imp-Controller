@@ -8,8 +8,8 @@ In order to use this App:
 
 	1) Go to plan.electricimp.com
 	2) Login and make sure that your electric imp appear
-	3) Create new project(model) with the below code(Agent and Device)
-	4) Upload the progect(model) into your Imp
+	3) Create a new project(model) with the below code(Agent and Device)
+	4) Upload the project(model) into your Imp
 
 
 Configure your android App(Agent id/User id)
@@ -27,11 +27,10 @@ Configure your android App(Agent id/User id)
 	
 Device Code
 -----------
-	// configure the imp (best practice)
+
 	imp.configure("Smart Home", [], []);
 	 
-	// create a global variabled called led, 
-	// and assign pin9 to it
+	// create a global variabled called dev, 
 	dev1 <- hardware.pin1;
 	dev2 <- hardware.pin2;
 	dev3 <- hardware.pin5;
@@ -39,7 +38,7 @@ Device Code
 	dev5 <- hardware.pin8;
 	dev6 <- hardware.pin9;
 	 
-	// configure led to be a digital output
+	// configure dev to be a digital output
 	dev1.configure(DIGITAL_OUT);
 	dev2.configure(DIGITAL_OUT);
 	dev3.configure(DIGITAL_OUT);
