@@ -6,13 +6,13 @@ This App help users to control the Electric Imp pins by the android app "Electri
 
 In order to use this App:
 
-	1) Go to plan.electricimp.com
-	2) Login and make sure that your electric imp appear
+	1) Go to https://plan.electricimp.com
+	2) Login and make sure that your electric imp appear in the left side
 	3) Create a new project(model) with the below code(Agent and Device)
-	4) Upload the project(model) into your Imp
+	4) Upload(Build and Run) the project(model) into your Imp device.
 
 
-Configure your android App(Agent id/User id)
+Configure your android App(Agent id/User id). When you run the app device you requested to enter you "agent id"
 
 - Agent id:
 
@@ -22,9 +22,10 @@ Configure your android App(Agent id/User id)
 
 - User id:
 
-	"User id" is just value to inspect and identify user actions in the loger.
+	"User id" is just value to inspect and identify user actions in the logger.
 	The default "user id" is "123456".
 	The "User id" is case sensitive.
+	Warning: When you change the user id, please  make sure you change the Users Array() in the Agent file also.
 	
 
 	
@@ -133,7 +134,9 @@ Agent Code
 
 	
 	/** White list of valid users... you can change/add mutiple user and 
-	 inspect there actions on your device */
+	 inspect actions on your device (see the logger) */
+	// for example: 
+	//ValidUserID <- ["user1","user2"];
 	ValidUserID <- ["123456"];
 	
 	statDev1 <- -1;
