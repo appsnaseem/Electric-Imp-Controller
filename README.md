@@ -14,15 +14,19 @@ In order to use this App:
 
 Configure your android App(Agent id/User id)
 
-- Agent id
+- Agent id:
 
-	Your "Electric Imp agent id"  is the XXX from agent url:
-		https://agent.electricimp.com/XXX 
+	https://agent.electricimp.com/[Electric Imp agent id]
+	You can get your agent id from Electric imp planner.
+	The "Electric Imp agent id" is case sensitive.
 
-- User id
+- User id:
 
 	"User id" is just value to inspect and identify user actions in the loger.
 	The default "user id" is "123456".
+	The "User id" is case sensitive.
+	
+
 	
 	
 Device Code
