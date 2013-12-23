@@ -1,7 +1,7 @@
 imp.configure("Smart Home", [], []);
  
 // create a global variabled called dev, 
-dev1 <- hardware.pin1;
+dev1 <- hardware.pin1; 
 dev2 <- hardware.pin2;
 dev3 <- hardware.pin5;
 dev4 <- hardware.pin7;
