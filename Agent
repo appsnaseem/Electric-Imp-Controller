@@ -1,4 +1,3 @@
-
 /** White list of valid users... you can change/add mutiple user and 
  inspect there actions on your device */
 ValidUserID <- ["123456"];
