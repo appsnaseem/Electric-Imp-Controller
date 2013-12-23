@@ -220,7 +220,7 @@ function writeStatus(status) {
     // + "," + status[3]+ "," + status[4]+ "," + status[5]);
     
     
-}
+} 
 
 device.on("status",writeStatus);
 
